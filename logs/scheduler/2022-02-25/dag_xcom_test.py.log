@@ -523,3 +523,10 @@
 [2022-02-25 00:37:58,468] {logging_mixin.py:109} INFO - [2022-02-25 00:37:58,468] {dag.py:2396} INFO - Sync 1 DAGs
 [2022-02-25 00:37:58,485] {logging_mixin.py:109} INFO - [2022-02-25 00:37:58,485] {dag.py:2935} INFO - Setting next_dagrun for meu_dag to None
 [2022-02-25 00:37:58,495] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_xcom_test.py took 0.076 seconds
+[2022-02-25 00:57:08,605] {processor.py:163} INFO - Started process (PID=22246) to work on /opt/airflow/dags/dag_xcom_test.py
+[2022-02-25 00:57:08,608] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_xcom_test.py for tasks to queue
+[2022-02-25 00:57:08,609] {logging_mixin.py:109} INFO - [2022-02-25 00:57:08,609] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_xcom_test.py
+[2022-02-25 00:57:08,665] {processor.py:654} INFO - DAG(s) dict_keys(['meu_dag']) retrieved from /opt/airflow/dags/dag_xcom_test.py
+[2022-02-25 00:57:08,686] {logging_mixin.py:109} INFO - [2022-02-25 00:57:08,686] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-25 00:57:08,745] {logging_mixin.py:109} INFO - [2022-02-25 00:57:08,745] {dag.py:2935} INFO - Setting next_dagrun for meu_dag to None
+[2022-02-25 00:57:08,761] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_xcom_test.py took 0.161 seconds
